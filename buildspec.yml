@@ -16,7 +16,7 @@ phases:
       # checking aws version
       - aws --version
       - aws s3 ls
-      - aws s3 sync ./public/* s3://pipel.sample
+      - cd public && aws s3 sync . s3://pipel.sample/
 
       # - aws s3 sync _site/ s3://alexbilbiecom
 
