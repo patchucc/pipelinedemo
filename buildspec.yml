@@ -10,8 +10,8 @@ phases:
     commands:
       - echo "this is the build phase"
       - npm install
-      - cd public
-      - ls
+      - ls -l
+      - cd public && ls -l
       # - echo "******** Building Jekyll site ********"
       # - jekyll build
       # - echo "******** Uploading to S3 ********"
