@@ -12,6 +12,11 @@ phases:
       - npm install
       - ls -l
       - cd public && ls -l
+
+      # checking aws version
+      - aws version
+      - aws s3 ls
+
       # - echo "******** Building Jekyll site ********"
       # - jekyll build
       # - echo "******** Uploading to S3 ********"
