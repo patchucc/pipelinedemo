@@ -16,7 +16,7 @@ phases:
       # checking aws version
       - aws --version
       - aws s3 ls
-      - cd public && aws s3 sync . s3://pipel.sample/ -acl public_read
+      - cd public && aws s3 sync . s3://pipel.sample/ --acl public-read
 
       # - aws s3 sync _site/ s3://alexbilbiecom
 
