@@ -1,0 +1,15 @@
+# comment
+
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - echo "this is the install phase"
+  build:
+    commands:
+      - echo "this is the build phase"
+      # - echo "******** Building Jekyll site ********"
+      # - jekyll build
+      # - echo "******** Uploading to S3 ********"
+      # - aws s3 sync _site/ s3://alexbilbiecom
