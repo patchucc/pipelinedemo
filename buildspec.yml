@@ -14,7 +14,7 @@ phases:
       - cd public && ls -l
 
       # checking aws version
-      - aws version
+      - aws --version
       - aws s3 ls
 
       # - echo "******** Building Jekyll site ********"
